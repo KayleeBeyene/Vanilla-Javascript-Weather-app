@@ -1,15 +1,7 @@
-
-.weather-app {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 10px;
-}
 h1 {
     color: #878787;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 28px;
     margin-bottom: 0;
   }
@@ -32,3 +24,17 @@ h1 {
   li:first-letter {
     text-transform: capitalize;
   }
+  .weather-app {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #dadde1;
+    border-radius: 10px;
+}
+.weather-app-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.overview {
+  margin-bottom: 30px;
+}
