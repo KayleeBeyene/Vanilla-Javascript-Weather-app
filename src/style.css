@@ -38,3 +38,18 @@ li:first-letter {
 .overview {
   margin-bottom: 30px;
 }
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+.weather-temperature strong {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
